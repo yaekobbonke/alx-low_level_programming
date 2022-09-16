@@ -5,7 +5,7 @@
  *  @n: the int for the paramaters of my function
  *  Return: 0
  */
-void print_diagonal(int n);
+void print_diagonal(int n)
 {
 	int a = 0;
 	int b = 0;
