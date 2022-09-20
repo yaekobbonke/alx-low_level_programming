@@ -2,17 +2,16 @@
 #include <stdio.h>
 
 /**
- * main - check the code for main.h
- *
+ * _strlen - check the code for main.h
+ * @s: declaration of *s and paramters for the function _strlen
  * Return: Always 0.
  */
-int main(void)
+int _strlen(char *s)
 {
-	char *str;
-	int len;
+	int c;
 
-	str = "My first strlen!";
-	len = _strlen(str);
-	printf("%d\n", len);
+	for (c = 0; s[c] != 0; c++)
+	{
+	}
 return (0);
 }
