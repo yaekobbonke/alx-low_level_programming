@@ -29,7 +29,7 @@ int main(void)
 	if (i % 10)
 	{
 	printf(" ");
-	{
+	}
 	if (!(i % 10) && i)
 	{
 	printf("\n");
@@ -39,4 +39,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-
