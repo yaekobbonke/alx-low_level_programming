@@ -1,0 +1,10 @@
+cc=gcc
+objects=main.o school.o
+all:school
+schoo:$(objects)
+	$(cc) $(objects) -o school
+%.o:%.c
+	$(cc) -c $<
+clean:
+	rm -rf *.o
+
