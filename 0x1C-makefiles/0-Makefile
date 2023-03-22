@@ -1,0 +1,10 @@
+cc=gcc
+all:school
+school:main.o school.o
+	$(cc)  main.o school.o -o school
+main.o:main.c
+	$(cc)  main.c
+school.o:school.c
+	$(cc)  school.c
+clean:
+	rm -rf *.o
