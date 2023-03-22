@@ -1,0 +1,3 @@
+cc=gcc
+cFLAGS=-c-Wall
+all:school
