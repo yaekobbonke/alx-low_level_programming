@@ -1,12 +1,6 @@
 cc=gcc
 SRC=main.c school.c
 all:school
-schoo:$(SRC)
-	$(CC) $(SRC) -o school
-main.o:main.c
-	$(CC) main.c
-school.o:school.c
-	$(CC) school.c
-clean:
-	rm -rf *.o
+school: $(SRC)
+	$(CC) $(SRC)  -o school
 
