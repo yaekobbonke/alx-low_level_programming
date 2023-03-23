@@ -1,10 +1,12 @@
 cc=gcc
-objects=main.o school.o
+SRC=main.c school.c
 all:school
-schoo:$(objects)
-	$(cc) $(objects) -o school
-%.o:%.c
-	$(cc) -c $<
+schoo:$(SRC)
+	$(CC) $(SRC) -o school
+main.o:main.c
+	$(CC) main.c
+school.o:school.c
+	$(CC) school.c
 clean:
 	rm -rf *.o
 
