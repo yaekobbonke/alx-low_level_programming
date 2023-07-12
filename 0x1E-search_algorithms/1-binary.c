@@ -9,6 +9,7 @@
  * @value: the value to search for
  * Return: return the index where value is located
  *		If value is not present in array or if array is NULL, returns -1
+ *
  * Description: prints the array being searched every time it changes
  */
 
