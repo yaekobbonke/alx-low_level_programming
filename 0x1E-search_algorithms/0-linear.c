@@ -1,3 +1,6 @@
+/*
+ * file: 0-linear.c
+ */
 #include "search_algos.h"
 
 /**
